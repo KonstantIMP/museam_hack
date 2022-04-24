@@ -1,4 +1,4 @@
-package org.kimp.witelokk.museum.app
+package org.kimp.witelokk.museum.app.ui.activities
 
 import android.os.Bundle
 import android.view.View

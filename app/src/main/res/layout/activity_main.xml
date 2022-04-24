@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:padding="@dimen/doub_grid_size"
-    tools:context="org.kimp.witelokk.museum.app.MainActivity">
+    tools:context="org.kimp.witelokk.museum.app.ui.activities.MainActivity">
 
     <TextView
         android:id="@+id/title"
