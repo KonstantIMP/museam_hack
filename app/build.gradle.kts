@@ -59,6 +59,8 @@ dependencies {
     implementation(libs.androidx.navigation.fragments.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 
+    implementation(libs.subscale.imageview)
+
     implementation(libs.google.material)
 
     testImplementation(libs.junit)
