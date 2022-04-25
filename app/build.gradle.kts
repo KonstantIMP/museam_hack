@@ -55,6 +55,9 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraint.layout)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.fragments.ktx)
+    implementation(libs.androidx.navigation.fragments.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
 
     implementation(libs.google.material)
 
