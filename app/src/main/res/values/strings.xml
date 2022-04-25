@@ -4,4 +4,6 @@
     <string name="mf_start_btn_msg">Let\'s go</string>
     <string name="mf_map_btn_msg">Open map</string>
     <string name="powered_by_msg" translatable="false">by KonstantIMP</string>
+
+    <string name="mf_choose_floor_msg">Choose the floor</string>
 </resources>
