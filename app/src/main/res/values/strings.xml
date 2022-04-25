@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Museum</string>
-    <string name="title">This is just a template</string>
-    <string name="description">You can compute a factorial using the library-kotlin module. The result will be also shown in a notification using the library-android module.</string>
-    <string name="factorial_hint">Insert a number to compute his factorial</string>
-    <string name="compute">Compute</string>
-    <string name="notification_title">The Result is:</string>
+
+    <string name="mf_start_btn_msg">Let\'s go</string>
+    <string name="mf_map_btn_msg">Open map</string>
+    <string name="powered_by_msg" translatable="false">by KonstantIMP</string>
 </resources>
