@@ -60,6 +60,8 @@ dependencies {
     implementation(libs.androidx.navigation.fragments.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.navigation.dynamic.features)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
     implementation(libs.subscale.imageview)
 
