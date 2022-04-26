@@ -24,6 +24,11 @@ class MenuFragment : Fragment() {
                 .navigate(R.id.action_menuFragment_to_mapFragment)
         }
 
+        binding.mfStartBtn.setOnClickListener {
+            findNavController()
+                .navigate(R.id.action_menuFragment_to_questFragment)
+        }
+
         return binding.root
     }
 }

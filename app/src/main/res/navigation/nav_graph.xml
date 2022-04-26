@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_menuFragment_to_mapFragment"
             app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_questFragment"
+            app:destination="@id/questFragment" />
     </fragment>
 
     <fragment
@@ -20,5 +23,15 @@
         android:name="org.kimp.witelokk.museum.app.ui.fragments.MapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/questFragment"
+        android:name="org.kimp.witelokk.museum.app.ui.fragments.QuestFragment"
+        android:label="fragment_quest"
+        tools:layout="@layout/fragment_quest" >
+        <action
+            android:id="@+id/action_questFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
     </fragment>
 </navigation>
