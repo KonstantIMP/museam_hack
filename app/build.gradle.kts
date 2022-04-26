@@ -64,6 +64,7 @@ dependencies {
     implementation(libs.subscale.imageview)
 
     implementation(libs.google.material)
+    implementation(libs.google.gson)
 
     testImplementation(libs.junit)
 
