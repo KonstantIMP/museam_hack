@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -58,6 +59,7 @@ dependencies {
     implementation(libs.androidx.fragments.ktx)
     implementation(libs.androidx.navigation.fragments.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.navigation.dynamic.features)
 
     implementation(libs.subscale.imageview)
 
