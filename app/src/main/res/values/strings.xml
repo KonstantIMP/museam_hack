@@ -6,4 +6,10 @@
     <string name="powered_by_msg" translatable="false">by KonstantIMP</string>
 
     <string name="mf_choose_floor_msg">Choose the floor</string>
+    <string name="qv_skip_question_btn">Skip this question</string>
+    <string name="qv_check_answer_btn">Check the answer</string>
+    <string name="qv_scan_qr_btn">Scan QR code</string>
+    <string name="qv_enter_answer_et">Enter your answer</string>
+    <string name="qv_enter_number_et">Enter number</string>
+    <string name="qv_question_number_msg">Question\'s number:</string>
 </resources>
