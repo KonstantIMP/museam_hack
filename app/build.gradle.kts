@@ -66,6 +66,7 @@ dependencies {
     implementation(libs.subscale.imageview)
     implementation(libs.squareup.picasso)
     implementation(libs.sayyam.carouselview)
+    implementation(libs.journeyapps.zxing)
 
     implementation(libs.google.material)
     implementation(libs.google.gson)
