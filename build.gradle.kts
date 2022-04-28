@@ -15,6 +15,7 @@ plugins {
 allprojects {
     group = PUBLISHING_GROUP
 }
+
 val ktlintVersion = libs.versions.ktlint.get()
 subprojects {
     apply {

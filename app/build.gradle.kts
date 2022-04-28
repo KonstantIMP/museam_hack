@@ -64,6 +64,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
 
     implementation(libs.subscale.imageview)
+    implementation(libs.squareup.picasso)
+    implementation(libs.sayyam.carouselview)
 
     implementation(libs.google.material)
     implementation(libs.google.gson)
