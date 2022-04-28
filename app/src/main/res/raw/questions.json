@@ -1,6 +1,12 @@
 {
-  "questions_list": [
-    
+  "questions": [
+    {
+      "number": 1,
+      "image": "",
+      "text": "It is a test question",
+      "type": "text",
+      "correctAnswer": "Yes"
+    }
   ]
 }
 

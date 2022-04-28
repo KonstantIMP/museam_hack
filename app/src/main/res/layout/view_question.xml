@@ -47,18 +47,20 @@
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
-                        android:gravity="end"/>
+                        android:gravity="end"
+                        android:layout_marginEnd="@dimen/base_grid_size"/>
 
                 </LinearLayout>
 
                 <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/qv_question_image"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/base_grid_size"
-                    android:layout_marginBottom="@dimen/base_grid_size" />
+                    android:layout_marginTop="@dimen/base_grid_size" />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/qv_question_text_msg"
+                    android:layout_marginTop="@dimen/base_grid_size"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:justificationMode="inter_word"/>

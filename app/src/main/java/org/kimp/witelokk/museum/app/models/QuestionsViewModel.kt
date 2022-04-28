@@ -10,6 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.kimp.witelokk.museum.app.R
 import org.kimp.witelokk.museum.app.serialization.Question
+import kotlin.streams.toList
 
 private data class QuestionsList(
     val questions: List<Question>
@@ -28,7 +29,9 @@ class QuestionsViewModel : ViewModel() {
                     .fromJson(
                         inputStream.bufferedReader().use { it.readText() },
                         QuestionsList::class.java
-                    ).questions
+                    ).questions.stream()
+                    .sorted { q1, q2 -> q1.number.compareTo(q2.number) }
+                    .toList()
             )
         }
     }
