@@ -5,9 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import org.kimp.witelokk.museum.app.databinding.FragmentQuestBinding
+import org.kimp.witelokk.museum.app.models.QuestionsViewModel
 
 class QuestFragment : Fragment() {
+    private lateinit var questionsViewModel: QuestionsViewModel
     private lateinit var binding: FragmentQuestBinding
 
     override fun onCreateView(
@@ -16,6 +19,9 @@ class QuestFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentQuestBinding.inflate(inflater)
+
+        questionsViewModel = ViewModelProvider(this)[QuestionsViewModel::class.java]
+        questionsViewModel.loadQuestions(resources)
 
         return binding.root
     }
