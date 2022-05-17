@@ -65,6 +65,8 @@ dependencies {
 
     implementation(libs.subscale.imageview)
     implementation(libs.squareup.picasso)
+    implementation(libs.squareup.okhttp)
+    implementation(libs.jakewharton.picasso.okhttp)
     implementation(libs.sayyam.carouselview)
     implementation(libs.journeyapps.zxing)
 

@@ -56,7 +56,9 @@
                     android:id="@+id/qv_question_image"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/base_grid_size" />
+                    android:layout_marginTop="@dimen/base_grid_size"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Image"/>
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/qv_question_text_msg"

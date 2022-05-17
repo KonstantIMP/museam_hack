@@ -12,4 +12,12 @@
     <string name="qv_enter_answer_et">Enter your answer</string>
     <string name="qv_enter_number_et">Enter number</string>
     <string name="qv_question_number_msg">Question\'s number:</string>
+
+    <string name="rf_done_msg">Well done!</string>
+    <string name="rf_solved_msg">Number of solved:</string>
+    <string name="rf_skipped_msg">Number of skipped:</string>
+    <string name="rf_back_btn">Back to menu</string>
+
+    <string name="snack_correct">Yes! It is correct</string>
+    <string name="snack_error">Ops... Try again</string>
 </resources>

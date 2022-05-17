@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.App.Image" parent="">
+        <item name="cornerSize">@dimen/card_corner_size</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+</resources>

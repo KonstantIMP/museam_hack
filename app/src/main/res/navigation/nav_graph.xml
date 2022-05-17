@@ -33,5 +33,23 @@
         <action
             android:id="@+id/action_questFragment_to_mapFragment"
             app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_questFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="org.kimp.witelokk.museum.app.ui.fragments.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <argument
+            android:name="skip"
+            app:argType="integer" />
+        <argument
+            android:name="total"
+            app:argType="integer" />
     </fragment>
 </navigation>

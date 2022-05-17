@@ -14,7 +14,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="@dimen/base_grid_size"
-        app:layout_constraintBottom_toTopOf="@id/qf_menu_lay" />
+        app:layout_constraintBottom_toTopOf="@id/qf_menu_lay"
+        app:autoPlay="false"/>
 
     <LinearLayout
         android:id="@+id/qf_menu_lay"
