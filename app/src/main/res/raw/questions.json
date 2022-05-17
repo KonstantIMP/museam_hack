@@ -12,7 +12,7 @@
       "image": "",
       "text": "Если вы ответили на предыдущий вопрос, то сокрее всего обратили внимание, что один из удостоенных ордена \"Победы\" был правителем СССР. Назовите его фамилию",
       "type": "text",
-      "correctAnswer": "Сталин"
+      "correctAnswer": "сталин"
     },
     {
       "number": 3,
@@ -26,7 +26,7 @@
       "image": "https://victorymuseum.ru/upload/iblock/b15/c2rqam7lr8ygv6qx63jlwdj0nnj3v3dl/IMG_7948.jpg",
       "text": "Среди материалов экспозиции, на которой вы сейчас оказались, есть документы судебных трибуналов. Какой из процессов был связан с применением бактериологического оружия?",
       "type": "text",
-      "correctAnswer": "Хабаровский"
+      "correctAnswer": "хабаровский"
     },
     {
       "number": 5,
@@ -44,34 +44,27 @@
     },
     {
       "number": 7,
-      "image": "https://victorymuseum.ru/images/feat-people/43.jpg",
-      "text": "Найдите трехмерную панораму, посвященную обороне Брестской крепости. В каком году произошло это событие?",
-      "type": "number",
-      "correctAnswer": "1941"
-    },
-    {
-      "number": 8,
       "image": "",
       "text": "Поднимитесь на этаж выше и войдите на центральный балкон. Найдите и отсканируйте QR-код",
       "type": "qr",
       "correctAnswer": "balcony"
     },
     {
-      "number": 9,
+      "number": 8,
       "image": "https://victorymuseum.ru/museum-complex/glavnoe-zdanie-muzeya/ekspozitsiya-bitva-za-moskvu-pervaya-pobeda-/images/ANDR9631.jpg",
       "text": "Теперь вы на экспозиции, посвященной битве за Москву. Внимательно изучите экспонаты и скажите, какого числа состоялся парад?",
       "type": "number",
       "correctAnswer": "7"
     },
     {
-      "number": 10,
+      "number": 9,
       "image": "https://victorymuseum.ru/museum-complex/glavnoe-zdanie-muzeya/ekspozitsiya-bitva-za-moskvu-pervaya-pobeda-/images/ANDR9733.jpg",
       "text": "Где 06.11.1941 выступил Верховный Главнокомандующий Иосиф Сталин?",
       "type": "text",
       "correctAnswer": "метро"
     },
     {
-      "number": 11,
+      "number": 10,
       "image": "https://sun9-26.userapi.com/s/v1/ig2/y7rFt9TOqIHLudLMB81Ij8NriQOzwZEoY8d4nTwJuMdDFQHLYu7F43tv8U9aAqwGflHY-G3q6-5FxQLw1t7q5_O3.jpg?size=1280x784&quality=96&type=album",
       "text": "А теперь вернитесь к лестнице и спуститесь на самый нижний этаж. Найдите буфет и отсканируйте QR-код!",
       "type": "qr",

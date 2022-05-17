@@ -82,7 +82,7 @@ class QuestFragment : Fragment() {
             var answer: String = ""
 
             answer = if (question.type == QuestionType.NUMBER_QUESTION) questionView.qvNumberAnswerIt.text.toString()
-            else questionView.qvTextAnswerIt.text.toString()
+            else questionView.qvTextAnswerIt.text.toString().lowercase()
 
             answer.trim()
             question.givenAnswer = answer
